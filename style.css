@@ -1,0 +1,84 @@
+/* Write your CSS here */
+body{
+  background: #222831;
+  color: #297ca0;
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+	background: #222831;
+  color: #297ca0;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #29a19c;
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #BBBBBB ;
+  font-weight: lighter;
+  font-size: 8px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+#banner {
+	text-align: center;
+	width: 800px;
+	background-color: white;
+	border-radius: 10%;
+	background-image: url("https://unsplash.it/1000/600?random");
+	background-size: cover;
+	margin:15px auto;
+  	background-position: center;
+}
+#banner img {
+	border-radius: 50%;
+}
+
+.white-case{
+background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.cards{
+	margin: 15px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+}
+
+#footer{
+	padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
+
+
